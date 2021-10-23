@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  /* color: rgb(255, 255, 255); */
+  /* font-family: 'Courier New', monospace; */
+  font-family:"Courier New", Courier, monospace;
+  font-weight:bold;
+  background-color: rgb(222, 225, 253);
+
+}
+ /* .Header{
+  font-size:x-large;
+  font-weight:bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} */
+
+
+.CardView{
+width: 30%;
+margin: 16px auto;
+border: 1px solid #eee;
+box-shadow: 0 2px 3px rgb(139, 109, 245);
+padding: 16px;
+text-align: center;
+font-weight:lighter;
+
+}
+
+
+
+
+
+
+
+
+
+.Button{
+  background-color:purple;
+  display: inline-block;
+  color:white;
+  border-radius: 3px;
+  padding: 0.5rem 0;
+  margin: 0.5rem 1rem;
+  width: 11rem;
+  font:inherit;
+  border:1px solid blue;
+  cursor: pointer;
+
+}
+
+.Button:Hover{
+  background-color: rgb(255, 124, 216);
+  color: black;
+
+}
+
+.Button.Red{
+  background-color: red;
+}
+.Button.Red:hover{
+  background-color:salmon;
+}
+
+.bold{
+  font-weight:bold; 
+
+}
+
+.Size{
+  width:"5 px";
+  height:"5 px";
+}
+
+
+
+
+
